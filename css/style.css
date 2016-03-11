@@ -1,25 +1,58 @@
-body {
-    background-color: LightGray;
-}
+/*body {*/
+/*    background-color: LightGray;*/
+/*}*/
 
-div {
-    border: 1px solid Chocolate;
-}
+/*div {*/
+/*    border: 1px solid Chocolate;*/
+/*}*/
 
-img {
-    margin-left: 14px;
-    height: 70px;
-}
+/* Navigation Section */
 
 .top-navigation {
     background-color: #fff;
-    
 }
 
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    
+}
+
+.content {
+    padding: 0px 15px;
+}
+
+img.logo {
+    height: 70px;
+    padding: 0px 15px; 
+    margin-top: -150px;
+}
+.top-navigation .links {
+    margin-left: 350px;
+    
+    
+}
+.top-navigation .links li {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+    
+}
+
+.top-navigation .links li:hover {
+    color: pink;   
+}
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;   
+}
 }
 
 
