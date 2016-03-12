@@ -1,14 +1,18 @@
-/*body {*/
-/*    background-color: LightGray;*/
-/*}*/
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+}
 
 /*div {*/
 /*    border: 1px solid Chocolate;*/
 /*}*/
 
-html {
-  box-sizing: border-box;
-}
+/*html {*/
+/*  box-sizing: border-box;*/
+/*}*/
 /**, *:before, *:after {*/
 /*  box-sizing: inherit;*/
 /*}*/
@@ -20,13 +24,14 @@ html {
 }
 
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
-    margin: 0 auto;
 }
 
 .content {
+    margin: 0 auto;
+    width: 970px;
     padding: 0px 15px;
+    box-sizing: border-box;
 }
 
 img.logo {
@@ -36,11 +41,11 @@ img.logo {
 }
 .top-navigation .links {
     margin-left: 350px;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #838994;
-    letter-spacing: 0.03em;
+    /*-webkit-font-smoothing: antialiased;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-size: 16px;*/
+    /*color: #838994;*/
+    /*letter-spacing: 0.03em;*/
     margin-top: 35px;
     
     
@@ -61,3 +66,55 @@ img.logo {
     color: #4c5058;
     font-weight: 500;   
 }
+
+.introduction {
+    background-image: url('../images/first-background copy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1, 
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+.introduction h1 {
+    margin-top: 13rem;
+    margin-bottom: .25rem;
+    font-size: 3.125rem;   
+    font-weight: 300;
+}
+
+.introduction h3 {
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.563rem;
+}
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
