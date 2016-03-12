@@ -21,6 +21,7 @@ body {
 
 .top-navigation {
     background-color: #fff;
+    width: 130%;
 }
 
 .top-navigation > .content {
@@ -34,7 +35,7 @@ body {
     box-sizing: border-box;
 }
 
-img.logo {
+.top-navigation .logo {
     height: 85px;
     padding: 0px 15px; 
     margin-top: -200px;
@@ -119,3 +120,26 @@ button:hover {
     cursor: pointer;
 }
 
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 20rem;
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+}
