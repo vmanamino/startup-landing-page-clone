@@ -142,4 +142,5 @@ button:hover {
 .cases .devices > li {
     width: 33.3333333%;
     float: left;
+    list-style: none;
 }
