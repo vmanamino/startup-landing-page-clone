@@ -22,6 +22,10 @@ body {
 .top-navigation {
     background-color: #fff;
     width: 130%;
+    position: fixed;
+    /*width: 100%;*/
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -131,6 +135,7 @@ button:hover {
     padding: none;
     color: #1d1e21;
     text-align: center;
+    width: 61%;
 }
 
 .cases h2 {
@@ -144,3 +149,10 @@ button:hover {
     float: left;
     list-style: none;
 }
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
