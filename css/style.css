@@ -203,3 +203,9 @@ button:hover {
     color: #3f729b;
 }
 
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
