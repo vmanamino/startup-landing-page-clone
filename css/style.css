@@ -108,6 +108,16 @@ body {
     }
 }
 
+@media only screen and (max-width: 712px) {
+    .top-navigation .links > .active {
+        display: none;
+    }
+    .content h3 {
+        display: none;
+    }
+}
+
+
 
 
 .introduction {
@@ -203,6 +213,13 @@ button:hover {
 
 .social .icons {
     width: 868px;
+}
+
+@media only screen and (max-width: 1878px) {
+    .social .icons {
+        width: auto;
+        padding-left: initial;
+    }
 }
 
 .social .icons > li:hover {
